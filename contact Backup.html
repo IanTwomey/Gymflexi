@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<!-- use viewpoint meta tag to make the website responsive !-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>
+
+
+
+FlexFit
+
+</title>
+
+<!-- call the CSS stylesheet !-->
+
+<link rel="stylesheet" type="text/css" href="FlexFit.css">
+<link rel="stylesheet" type="text/css" href="form.css">
+
+<!-- call the JavaScript file !-->
+<script src="FlexFit.js"></script>
+
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</head>
+
+
+
+
+
+<body>
+<content>
+
+<div class="header">
+<h1 id="myH1">
+
+FlexFit
+
+</h1>
+<!-- Top navigation -->
+<div class="nav-section">
+
+<nav id="mynav">
+<ul>
+
+<li><a href = "index.html">Home</a></li>
+<li><a href = "about.html">About Us</a></li>
+<li><a href = "contact.html">Contact Us</a></li>
+<li><a href = "facilities.html">Our Facilities</a></li>
+<li><a href = "classes.html">Classes</a></li>
+
+</ul>
+
+</nav>
+
+  <!-- Centered link
+  <div class="topnav-centered">
+    <a href="#home" class="active">Home</a>
+  </div>  -->
+
+  <!-- Left-aligned links (default) 
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a> -->
+
+  <!-- Right-aligned links 
+  <div class="topnav-right">
+    <a href="#search">Search</a>
+    <a href="#about">About</a>
+  </div>-->
+
+</div>
+
+<br>
+<br>
+<br>
+<p class = "myP">Contact us using the form below</p>
+<br>
+<br>
+
+<div class="container">
+  <form onsubmit="save_data()">
+  <div class="row">
+    <div class="col-25">
+      <label for="fname">First Name</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="lname">Last Name</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="trainer">Trainer</label>
+    </div>
+    <div class="col-75">
+      <select id="trainer" name="trainer">
+        <option value="anna">Anna Kirby</option>
+        <option value="andy">Andy Robinson</option>
+        <option value="karen">Karen O'Reilly</option>
+      </select>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="subject">Subject</label>
+    </div>
+    <div class="col-75">
+      <textarea id="subject" name="subject" placeholder="Enter your query here" style="height:200px"></textarea>
+    </div>
+  </div>
+  <div class="row">
+  <button type="button" value="Save" id="Save" data-theme="a">Submit</button>
+    <!-- <input type="submit" value="Submit"> -->
+  </div>
+  </form>
+</div>
+
+<br>
+<br>
+<br>
+
+<div>
+
+<p class = "myP">
+
+Our location:-
+
+</p>
+
+</div>
+
+
+<div style="width: 75%"><iframe width="75%" height="450" src="https://maps.google.com/maps?width=75%&amp;height=450&amp;hl=en&amp;q=14%20Richmond%20Road%2C%20Dublin%209%2C%20Ireland+(FlexFit)&amp;ie=UTF8&amp;t=&amp;z=16&amp;iwloc=B&amp;output=embed" align="center" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div><br />
+
+<!--<div class="video-container">iframe <iframe src="https://www.youtube.com/embed/ZG3YTqOlIkI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></ifra src="https://www.youtube.com/embed/ZG3YTqOlIkI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div> !-->
+<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/ZG3YTqOlIkI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> !-->
+
+</content>
+
+<footer class="footer">
+
+<div class="col-6">
+  <p id="myP1">FlexFit</p>
+  <p id="myP1">14 Richmond Road </p>
+  <p id="myP1">Drumcondra</p>
+  <p id="myP1">Dublin 9</>
+  <p id ="myP1"><a href="mailto:info@flexfit.ie">info@flexfit.ie</a></p>
+ </div>
+ 
+ <div class="colr-6">
+ 
+ <p id="myP1">Visit us on social media</p>
+ <!-- Add icon library functionality found through w3cschools.com-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Add font awesome icons -->
+<a href="http://www.facebook.com" class="fa fa-facebook"></a>
+<a href="http://www.twitter.com" class="fa fa-twitter"></a>
+<a href="http://www.instagram.com" class="fa fa-instagram"></a>
+<a href="http://www.youtube.com" class="fa fa-youtube"></a>
+<a href="http://www.linkedin.com" class="fa fa-linkedin"></a>
+ 
+ 
+ </div>
+   
+  
+</footer>
+
+
+</body>
+
+
+
+</div>
+
+
+</html>

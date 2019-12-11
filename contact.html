@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<!-- use viewpoint meta tag to make the website responsive !-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>
+
+
+
+FlexFit
+
+</title>
+
+<!-- call the CSS stylesheet !-->
+
+<link rel="stylesheet" type="text/css" href="FlexFit.css">
+
+
+
+<!-- call the JavaScript file !-->
+<script src="FlexFit.js"></script>
+
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</head>
+
+
+
+
+
+<body>
+<content>
+
+<div class="header">
+<h1 id="myH1">
+
+FlexFit
+
+</h1>
+<!-- Top navigation -->
+<div class="nav-section">
+
+<nav id="mynav">
+<ul>
+
+<li><a href = "index.html">Home</a></li>
+<li><a href = "about.html">About Us</a></li>
+<li><a href = "contact.html">Contact Us</a></li>
+<li><a href = "facilities.html">Our Facilities</a></li>
+<li><a href = "classes.html">Classes</a></li>
+
+</ul>
+
+</nav>
+
+  <!-- Centered link
+  <div class="topnav-centered">
+    <a href="#home" class="active">Home</a>
+  </div>  -->
+
+  <!-- Left-aligned links (default) 
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a> -->
+
+  <!-- Right-aligned links 
+  <div class="topnav-right">
+    <a href="#search">Search</a>
+    <a href="#about">About</a>
+  </div>-->
+
+</div>
+
+<br>
+<br>
+<br>
+
+<br>
+<br>
+
+<!--<style>
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=checkbox] {
+  width: 5%;
+  
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+</style>-->
+
+<body>
+
+<p id = "myP4">Contact us using the form below</p>
+<div>
+
+<style type="text/css">
+.form-style-1 {
+border: medium solid black;
+}
+.form-style-1 {
+	margin:10px auto;
+	max-width: 400px;
+	padding: 20px 12px 10px 20px;
+	font: 13px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.form-style-1 li {
+	padding: 0;
+	display: block;
+	list-style: none;
+	margin: 10px 0 0 0;
+}
+.form-style-1 label{
+	margin:0 0 3px 0;
+	padding:0px;
+	display:block;
+	font-weight: bold;
+}
+.form-style-1 input[type=text], 
+.form-style-1 input[type=date],
+.form-style-1 input[type=datetime],
+.form-style-1 input[type=number],
+.form-style-1 input[type=search],
+.form-style-1 input[type=time],
+.form-style-1 input[type=url],
+.form-style-1 input[type=email],
+textarea, 
+select{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	border:1px solid #BEBEBE;
+	padding: 7px;
+	margin:0px;
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+	outline: none;	
+}
+.form-style-1 input[type=text]:focus, 
+.form-style-1 input[type=date]:focus,
+.form-style-1 input[type=datetime]:focus,
+.form-style-1 input[type=number]:focus,
+.form-style-1 input[type=search]:focus,
+.form-style-1 input[type=time]:focus,
+.form-style-1 input[type=url]:focus,
+.form-style-1 input[type=email]:focus,
+.form-style-1 textarea:focus, 
+.form-style-1 select:focus{
+	-moz-box-shadow: 0 0 8px #88D5E9;
+	-webkit-box-shadow: 0 0 8px #88D5E9;
+	box-shadow: 0 0 8px #88D5E9;
+	border: 1px solid #88D5E9;
+}
+.form-style-1 .field-divided{
+	width: 49%;
+}
+
+.form-style-1 .field-long{
+	width: 100%;
+}
+.form-style-1 .field-select{
+	width: 100%;
+}
+.form-style-1 .field-textarea{
+	height: 100px;
+}
+.form-style-1 input[type=submit], .form-style-1 input[type=button]{
+	background: #4B99AD;
+	padding: 8px 15px 8px 15px;
+	border: none;
+	color: #fff;
+}
+.form-style-1 input[type=submit]:hover, .form-style-1 input[type=button]:hover{
+	background: #4691A4;
+	box-shadow:none;
+	-moz-box-shadow:none;
+	-webkit-box-shadow:none;
+}
+.form-style-1 .required{
+	color:red;
+}
+</style>
+
+
+<form action="javascript:;" onsubmit="myFunction(this)";>
+<ul class="form-style-1">
+    <li><label>Full Name <span class="required">*</span></label><input type="text" name="field1" class="field-divided" placeholder="First" /> <input type="text" name="field2" class="field-divided" placeholder="Last" /></li>
+    <li>
+        <label>Email <span class="required">*</span></label>
+        <input type="email" name="field3" class="field-long" />
+    </li>
+    <li>
+        <label>Trainer</label>
+        <select name="field4" class="field-select">
+        <option value="anna">Anna Kirby</option>
+        <option value="andy">Andy Robinson</option>
+        <option value="karen">Karen O'Reilly</option>
+        </select>
+    </li>
+    <li>
+        <label>Your Message <span class="required">*</span></label>
+        <textarea name="field5" id="field5" class="field-long field-textarea"></textarea>
+    </li>
+    <li>
+        <input type="submit" value="Submit" />
+    </li>
+</ul>
+</form>
+<!--<div>
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="trainer">Trainer</label>
+    <select id="trainer" name="trainer">
+      <option value="anna">Anna Kirby</option>
+      <option value="andy">Andy Robinson</option>
+      <option value="karen">Karen O'Reilly</option>
+    </select>
+	<br>
+	<br>
+	<label for="classes">Which classes interest you?</label>
+	<!--<select id="classes" name="classes"> -->
+	<!--<br>
+	<input type = "checkbox" name="classes" value="Spin">Spin
+	<input type = "checkbox" name="classes" value="Bodypump">Bodypump
+	<input type = "checkbox" name="classes" value="Pilates">Pilates
+	<input type = "checkbox" name="classes" value="Boxercise">Boxercise
+	
+  
+    <input type="submit" value="Submit">
+  </form>
+</div> -->
+</div>
+
+<br>
+<br>
+<br>
+
+<div>
+
+<p id = "myP4">
+
+Our location
+
+</p>
+
+</div>
+
+
+<div style="width: 100%"><iframe width="100%" height="450" src="https://maps.google.com/maps?width=100%&amp;height=450&amp;hl=en&amp;q=14%20Richmond%20Road%2C%20Dublin%209%2C%20Ireland+(FlexFit)&amp;ie=UTF8&amp;t=&amp;z=16&amp;iwloc=B&amp;output=embed" style="float:center" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div> <br />
+
+<!--<div class="video-container">iframe <iframe src="https://www.youtube.com/embed/ZG3YTqOlIkI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></ifra src="https://www.youtube.com/embed/ZG3YTqOlIkI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div> !-->
+<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/ZG3YTqOlIkI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> !-->
+
+</content>
+
+<footer class="footer">
+
+<div class="col-6">
+  <p id="myP1">FlexFit</p>
+  <p id="myP1">14 Richmond Road </p>
+  <p id="myP1">Drumcondra</p>
+  <p id="myP1">Dublin 9</>
+  <p id ="myP1"><a href="mailto:info@flexfit.ie">info@flexfit.ie</a></p>
+ </div>
+ 
+ <div class="colr-6">
+ 
+ <p id="myP1">Visit us on social media</p>
+ <!-- Add icon library functionality found through w3cschools.com-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Add font awesome icons -->
+<a href="http://www.facebook.com" class="fa fa-facebook"></a>
+<a href="http://www.twitter.com" class="fa fa-twitter"></a>
+<a href="http://www.instagram.com" class="fa fa-instagram"></a>
+<a href="http://www.youtube.com" class="fa fa-youtube"></a>
+<a href="http://www.linkedin.com" class="fa fa-linkedin"></a>
+ 
+ 
+ </div>
+   
+  
+</footer>
+
+
+</body>
+
+
+
+</div>
+
+
+</html>

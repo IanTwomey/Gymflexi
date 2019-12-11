@@ -1,0 +1,383 @@
+* {
+    box-sizing: border-box;
+}
+.header {
+    padding: 10px;
+	background-image: url("banner1.jpg"); /* The image used */
+	background-color: #cccccc; /* Used if the image is unavailable */
+	height: 168px; /* You must set a specified height */
+	background-position: center; /* Center the image */
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: cover; /* Resize the background image to cover the entire container */
+}
+.welcome{
+	padding: 5px;
+	background-color:#ADD8E6; 
+}
+.nav-section{
+	width: 100%;
+	
+	background-size: cover;
+}
+
+#mynav ul {
+	
+	width: 100%;
+	margin:0 auto;
+	background-color: rgba(255,255,255,0.5);
+	text-align:right;
+}
+
+#mynav ul li{
+	
+	list-style: none;
+	display: inline-block;
+		
+}
+
+#mynav ul li a{
+	
+	display: block;
+	text-decoration: none;
+	padding: 0px 20px;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: blue;
+	transition: background-color 0.5s ease;
+	
+}
+
+#mynav ul li a:hover{
+	
+	background-color: rgba(255,255,255,0.5);
+	
+}
+
+/* First attempt at navigation section (replaced)
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* Centered section inside the top navigation */
+.topnav-centered a {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
+}
+
+/* Responsive navigation menu - display links on top of each other instead of next to each other (for mobile devices) */
+@media screen and (max-width: 600px) {
+  .topnav a, .topnav-right {
+    float: none;
+    display: block;
+  }
+
+  .topnav-centered a {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+  }
+} */
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+  
+
+[class*="col-"] {
+    float: left;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="colr-"] {
+    float: right;
+}
+.colr-1 {width: 8.33%;}
+.colr-2 {width: 16.66%;}
+.colr-3 {width: 25%;}
+.colr-4 {width: 33.33%;}
+.colr-5 {width: 41.66%;}
+.colr-6 {width: 50%;}
+.colr-7 {width: 58.33%;}
+.colr-8 {width: 66.66%;}
+.colr-9 {width: 75%;}
+.colr-10 {width: 83.33%;}
+.colr-11 {width: 91.66%;}
+.colr-12 {width: 100%;}
+
+/*.menu {
+    width: 25%;
+    float: left;
+    padding: 15px;
+    border: 1px solid red;
+}
+.main1 {
+    width: 38%;
+    float: left;
+    padding: 15px;
+    border: 1px solid red;
+}
+
+.main2 {
+	width: 37%;
+	float: left;
+	padding: 15px;
+	border: 1px solid red;
+}
+*/
+
+html, body {
+height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+.container {
+  flex: 1 0 auto;
+}
+.footer {
+  flex-shrink: 0;
+}
+
+#myP {	
+color: dark-gray;
+text-align: left;
+font-family: verdana;
+font-size:1.3vw}
+
+#myP1 {	
+color: white;
+text-align: left;
+line-height: 0.9;
+font-family: verdana;
+font-weight: bold;
+font-size:1.0vw}
+
+#myP2 {color: gray;
+text-align: left;
+font-family: verdana;
+font-size:0.8vw}
+
+#myP3 {color: white;
+text-align: left;
+font-family: verdana;
+font-size: 0.5vw}
+
+#myH1 {color: white;
+text-indent: 53.5%;
+font-family: arial;
+font-size:6.5vw;
+font-weight: bold}
+
+#myH2 {color: blue;
+padding-top: 20px;
+text-align: center;
+font-family: arial;
+font-size:2.0vw;
+font-weight: bold;}
+
+#myH3 {color: blue;
+text-align: left;
+font-family: arial;
+font-size: 1.0vw;
+font-weight: bold;}
+
+#myUL {color:gray;
+text-align:left;
+font-family:verdana;
+font-size: 1.3vw;}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto ;
+  grid-gap: 10px;
+  background-color: #FFFFFF;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.item1 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.video-container {
+	position:relative;
+	padding-bottom:56.25%;
+	padding-top:30px;
+	height:0;
+	overflow:hidden;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+
+
+.btmnav-section{
+	width: 100%;
+	padding: 20%;
+	background-size: cover;
+	background-color: blue;
+}
+
+#mybtmnav-right ul {
+	
+	width: 100%;
+	margin:0 auto;
+	background-color: rgba(255,255,255,0.5);
+	text-align:right;
+}
+
+#mybtmnav-right ul li{
+	
+	list-style: none;
+	display: inline-block;
+		
+}
+
+#mybtmnav-right ul li a{
+	
+	display: block;
+	text-decoration: none;
+	padding: 0px 10px;
+	font-size: 10px;
+	font-weight: 600;
+	color: white;
+	
+	
+}
+
+#mybtmnav-right ul li a:hover{
+	
+	background-color: rgba(255,255,255,0.5);
+	
+}
+
+body {
+
+background-color: white;}
+
+#footer {
+padding: 10px;
+height: 330px;
+position: relative;
+background-color: #add4e6;
+}
+
+.clearfooter {
+height: 330px;
+clear: both;
+}
+
+footer{
+	
+    padding: 30px;
+	
+	background-color: #add4e6; /* Used if the image is unavailable */
+	height: 168px; /* You must set a specified height */
+	background-position: center; /* Center the image */
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: auto; /* Resize the background image to cover the entire container */
+
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 50px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+/*Instagram */
+.fa-instagram {
+	background: #125688;
+	color: white;
+	
+	
+}
+
+/*YouTube*/
+.fa-youtube{
+	
+	background: red;
+	color: white;
+	
+
+} 
+
+/*LinkedIn*/
+
+.fa-linkedin{
+	
+	background:#007bb5;
+	color: white;
+}
+
+
+
+	
